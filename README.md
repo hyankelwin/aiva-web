@@ -30,7 +30,7 @@
 
 AIVA WEB
 
-O <b>AIVA WEB</b> tem como principal objetivo <i>"gerenciar usuários e feedbacks de usuários selecionados"</i> com ele é possivel listar os usuários cadastrados, visualizar feedbacks, e até mesmo gerar um link para a coleta individual do feedback, agregando com um design super moderno de forma simples e objetiva. Pensado e construído com intuito de agregação de estudos de tecnologia.</p>
+O <b>AIVA WEB</b> tem como principal objetivo <i>"gerenciar usuários e feedbacks"</i> com ele é possivel listar os usuários cadastrados, visualizar feedbacks, e até mesmo gerar um link para a coleta individual do feedback, agregando com um design super moderno de forma simples e objetiva. Pensado e construído com intuito de agregação de estudos de tecnologia.</p>
 
 Para o desenvolvimento desta solução foi apostado no NextJS como tecnologia principal frontend, devido a alguns aspectos como:
 - File-Based Routing: Seu roteamento é todo baseado em pastas, no qual permitiu rapidez na construção pensando que não tive o trabalho de criar toda a parte de roteamento.
@@ -92,7 +92,7 @@ Para o desenvolvimento desta solução foi apostado no NextJS como tecnologia pr
 
 Antes de começar, você vai precisar ter instalado em sua máquina algumas ferramentas, como:
 [NodeJS](https://nodejs.org/en/). Para ajudar, recomendo um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/). Deixarei também a documentação anexada do NextJS, principal framework 
-utilizado no projeto caso precise de alguma configuração específica
+utilizado no projeto caso precise de alguma configuração específica [NextJs](https://nextjs.org/)
 
 #### 🎲 Adquira o repositorio do projeto
 
@@ -226,6 +226,22 @@ A parte de CI foi construída utilizando o Github Actions (CI/CD), no qual permi
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Image of CI" title="#ci" src="public/screenshots/screenshot-github-actions.png">
+</p>
+
+### Storybook
+Foi utilizado o Storybook para documentar os principais componentes utilizados no projeto, com ele é possível obter uma documentação rápida e prática do projeto.
+
+```bash
+
+# Rode o seguinte comando no terminal para testar
+$ yarn storybook
+ou
+$ npm storybook
+
+```
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Image of Storybook" title="#storybook" src="public/screenshots/screenshot-storybook.png">
 </p>
 
 ### Deploy (Vercel)
