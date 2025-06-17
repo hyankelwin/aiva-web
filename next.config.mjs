@@ -6,6 +6,7 @@ const nextConfig = {
 	compiler: {
 		styledComponents: true,
 	},
+	matcher: ['/home', '/users/:path*', '/feedbacks/:path*'],
 	async headers() {
 		return [
 			{
