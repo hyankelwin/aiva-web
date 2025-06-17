@@ -1,0 +1,1 @@
+export const ESCUELAJS_API_URL = process.env.NEXT_PUBLIC_ESCUELAJS_API_URL;
