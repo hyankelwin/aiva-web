@@ -21,7 +21,7 @@ jobs:
           node-version: '18'
 
       - name: 📦 Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: 🧪 Rodar testes
         run: npm run test --if-present
